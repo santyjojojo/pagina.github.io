@@ -278,7 +278,7 @@ function salario()
     else 
     {
         extras = horas - 40;
-        operacion = 1600000 + (extras * 20000)
+        operacion = 400000 + (extras * 20000)
     }
 
     alert ("Señor/a " + nombre + " su salario semanal es de " + operacion + ", con " + extras + " horas extras")
